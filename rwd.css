@@ -1,0 +1,162 @@
+/* * {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+body {
+    margin: 0;
+}
+
+.navigasi {
+    padding: 20px 0;
+    background-color: #fcfcfc;
+    border-bottom: 1px solid grey;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    clear: both;
+}
+
+.container-navigasi::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.logo-navigasi {
+    float: left;
+}
+
+.logo-navigasi a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.menu-navigasi {
+    float: right;
+}
+
+.menu {
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 18px;
+}
+
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-navigasi {
+    display: inline-block;
+    padding: 15px 0;
+    width: 100px;
+    font-size: 18px;
+    text-align: center;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+}
+
+.header {
+    padding: 95px 0;
+    background-color: lightgoldenrodyellow;
+}
+
+.container-header::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header-text {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.header-text p {
+    margin-bottom: 34px;
+}
+
+.btn-cta {
+    display: inline-block;
+    padding: 18px 0;
+    width: 145px;
+    text-align: center;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.content {
+    padding: 38px 0;
+}
+
+.container-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.container-content::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.card {
+    padding: 19px;
+    width: 22%;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.thumbnail {
+    background-color: lightcoral;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 14px;
+}
+
+/* Media queries untuk layar perangkat kecil */
+@media screen and (min-width: 768px) {
+    .btn-navigasi {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+    .header-text {
+        width: 45%;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .card {
+    }
+}
+
+
+.lain {
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    padding: 20px 40px;
+    margin: 30px 60px;
+    border: 10px solid black;
+    background-color: yellowgreen;
+}

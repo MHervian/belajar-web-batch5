@@ -1,0 +1,62 @@
+.artikel {
+    color: red;
+    font-size: 16px;
+    padding: 34px;
+    border: 1px dashed blue;
+}
+
+#artikel-spesial {
+    font-style: italic;
+}
+
+.artikel {
+    color: green;
+}
+
+/* Belajar Box layout dan display */
+.kotak1 {
+    padding-left: 45px;
+    margin-left: 90px;
+}
+
+.kotak2 {
+    margin-top: 60px;
+    border-bottom: 5px solid black;
+}
+
+/* Belajar selector lanjutan */
+a:hover {
+    background-color: red;
+    color: yellow;
+}
+
+a:active {
+    background-color: blue;
+}
+
+.coba::after {
+    content: "di website saya";
+    background-color: green;
+    color: yellow;
+}
+
+/* Selector pattern */
+.news {
+    margin-bottom: 34px;
+    width: 350px;
+    padding: 19px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.news p {
+    color: red;
+}
+
+.news > p {
+    color: green;
+}
+
+.news > p + p {
+    color: blueviolet;
+}
