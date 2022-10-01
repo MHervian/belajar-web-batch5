@@ -1,0 +1,25 @@
+.artikel {
+    color: red;
+    font-size: 16px;
+    padding: 34px;
+    border: 1px dashed blue;
+}
+
+#artikel-spesial {
+    font-style: italic;
+}
+
+.artikel {
+    color: green;
+}
+
+/* Belajar Box layout dan display */
+.kotak1 {
+    padding-left: 45px;
+    margin-left: 90px;
+}
+
+.kotak2 {
+    margin-top: 60px;
+    border-bottom: 5px solid black;
+}
