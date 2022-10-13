@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tempat Belajar Document Object Model dan Events</title>
+    </head>
+    <body>
+        <div id="tempat">
+            Ini adalah teks lama.
+        </div>
+        <button id="btn">Ubah Saya</button>
+    </body>
+    <script>
+        // var tagID = document.getElementById("select1");
+        // var tagClass = document.getElementsByClassName("kelas");
+        // var tagTagName = document.getElementsByTagName("button");
+
+        var tahap = 1;
+
+        // // console.log(tagID);
+        // // console.log(tagClass);
+        // console.log(tagTagName);
+
+        function ubah() {
+            switch(tahap) {
+                case 1: {
+                    document.getElementById("tempat").style.background = "red";
+                    document.getElementById("tempat").style.color = "yellow";
+                    tahap = 2;
+                    break;
+                }
+                case 2: {
+                    document.getElementById("tempat").style.background = "green";
+                    document.getElementById("tempat").style.color = "violet";
+                    tahap = 3;
+                    break;
+                }
+                case 3: {
+                    document.getElementById("tempat").style.background = "blue";
+                    document.getElementById("tempat").style.color = "yellow";
+                    tahap = 4;
+                    break;
+                }
+                default: {
+                    document.getElementById("tempat").style.background = "none";
+                    document.getElementById("tempat").style.color = "black";
+                    tahap = 1;
+                }
+            }
+            
+        }
+
+        document.getElementById("btn").addEventListener("click", ubah);
+
+    </script>
+</html>
