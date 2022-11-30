@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Bagian halaman login */
+.back-bg-login {
+    background-color: #f0f0f0;
+}
+
+.background-login {
+    margin-top: 170px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 30px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    box-shadow: 0 3px 4px rgb(192, 192, 192);
+}
+
+.background-login h1 {
+    margin-top: 0;
+    margin-bottom: 23px;
+    text-align: center;
+}
+
+.background-login label, 
+.background-login input {
+    display: block;
+}
+
+.input-field-login {
+    width: 100%;
+    margin-bottom: 18px;
+    padding: 9px;
+    border: 1px solid #bfbfbf;
+}
+
+.label-login {
+    margin-bottom: 8px;
+}
+
+.tombol-login {
+    width: 100%;
+    padding: 13px 0;
+    text-align: center;
+    cursor: pointer;
+
+    border: transparent;
+    border-radius: 5px;
+    background-color: #4d94ff;
+    color: #fefefe;
+    font-size: 17px;
+}
+
+.tombol-login:hover {
+    background-color: #1a75ff;
+}
